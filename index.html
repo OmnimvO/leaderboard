@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Show Leaderboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>C-Sci Math'ibay Leaderboard</h1>
+    <div id="leaderboard">
+      <canvas id="scoreChart"></canvas>
+    </div>
+    <div id="scoreInputs">
+      <div class="score-row" id="BNHS">
+        <label for="School1">BNHS:</label>
+        <span class="total-score"><span id="BNHS-total-score">0</span></span>
+        <button type="button" class="increment" data-school="BNHS" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="BNHS" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="BNHS" data-points="5">+5</button>
+        <button class="delete" data-school="BNHS">Delete</button>
+      </div>
+      <div class="score-row" id="CHS">
+        <label for="School2">CHS:</label>
+        <span class="total-score"><span id="CHS-total-score">0</span></span>
+        <button type="button" class="increment" data-school="CHS" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="CHS" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="CHS" data-points="5">+5</button>
+        <button class="delete" data-school="CHS">Delete</button>
+      </div>
+      <div class="score-row" id="DWCL">
+        <label for="School3">DWCL:</label>
+        <span class="total-score"><span id="DWCL-total-score">0</span></span>
+        <button type="button" class="increment" data-school="DWCL" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="DWCL" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="DWCL" data-points="5">+5</button>
+        <button class="delete" data-school="DWCL">Delete</button>
+      </div>
+      <div class="score-row" id="IDSCI">
+        <label for="School4">IDSCI:</label>
+        <span class="total-score"><span id="IDSCI-total-score">0</span></span>
+        <button type="button" class="increment" data-school="IDSCI" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="IDSCI" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="IDSCI" data-points="5">+5</button>
+        <button class="delete" data-school="IDSCI">Delete</button>
+      </div>
+      <div class="score-row" id="LEGASCI">
+        <label for="School5">LEGASCI:</label>
+        <span class="total-score"><span id="LEGASCI-total-score">0</span></span>
+        <button type="button" class="increment" data-school="LEGASCI" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="LEGASCI" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="LEGASCI" data-points="5">+5</button>
+        <button class="delete" data-school="LEGASCI">Delete</button>
+      </div>
+      <div class="score-row" id="MORMS">
+        <label for="School6">MORMS:</label>
+        <span class="total-score"><span id="MORMS-total-score">0</span></span>
+        <button type="button" class="increment" data-school="MORMS" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="MORMS" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="MORMS" data-points="5">+5</button>
+        <button class="delete" data-school="MORMS">Delete</button>
+      </div>
+      <div class="score-row" id="OSHS">
+        <label for="School7">OSHS:</label>
+        <span class="total-score"><span id="OSHS-total-score">0</span></span>
+        <button type="button" class="increment" data-school="OSHS" data-points="1">+1</button>
+        <button type="button" class="increment" data-school="OSHS" data-points="3">+3</button>
+        <button type="button" class="increment" data-school="OSHS" data-points="5">+5</button>
+        <button class="delete" data-school="OSHS">Delete</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
